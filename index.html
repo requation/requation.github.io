@@ -1,0 +1,253 @@
+<html>
+<head>
+  <style>
+    html,body{
+      width:100%;
+      padding: 20px 0px 0px 20px;
+      margin: 0;
+      background-color: black;
+      overflow-x: hidden;
+    }
+
+    #main{
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+
+    }
+
+    #main ul{
+      list-style-type: none;
+      padding: 0;
+      margin: 0 0 40px 0;
+      display: flex;
+      overflow-x:scroll;
+      padding-right:40px;
+      padding-left:20px;
+    }
+
+    #main ul::-webkit-scrollbar {
+      display: none;
+    }
+
+    #main li div, #main li img{
+      width: 200px;
+      height: 120px;
+      background-color: white;
+      margin: 3px;
+    }
+
+    header{
+      width: 100%;
+      height: 50px;
+      background-color:black;
+      position:fixed;
+      z-index:2;
+      top: 0;
+      left: 0;
+      padding-left: 32px;
+      padding-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/logo.png">
+  </header>
+
+  <div id="main">
+      <ul>
+        <li>
+          <a href="https://www.netflix.com/watch/81009671?trackId=14170076&tctx=2%2C1%2C7803f8cd-9204-47ea-ba8e-9923cafe57b7-443037324%2C3f3e3547-514d-4512-a4f1-b894589da1a5_33099208X3XX1649758786403%2C3f3e3547-514d-4512-a4f1-b894589da1a5_ROOT%2C%2C%2C">
+            <img src="images/octonauts1.jpg">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.netflix.com/watch/81286954?trackId=256829969">
+            <img src="images/sunnybunnies.jpg">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.netflix.com/watch/80108271?trackId=256829969&tctx=-97%2C-97%2C%2C%2C%2C%2C%2C">
+            <img src="images/magicbus.jpg">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.netflix.com/watch/81085777?trackId=256829969&tctx=0%2C0%2CNAPA%40%40%7Cacb61798-fbd8-4700-98b6-16714d2c5742-438364758_titles%2F1%2F%2Fllama%20llama%2F0%2F0%2CNAPA%40%40%7Cacb61798-fbd8-4700-98b6-16714d2c5742-438364758_titles%2F1%2F%2Fllama%20llama%2F0%2F0%2Cunknown%2C%2Cacb61798-fbd8-4700-98b6-16714d2c5742-438364758%7C2%2C">
+            <img src="images/llamallama.jpg">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.netflix.com/watch/80075098?trackId=256829969&tctx=0%2C0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446106888_titles%2F1%2F%2Fword%20party%2F0%2F0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446106888_titles%2F1%2F%2Fword%20party%2F0%2F0%2Cunknown%2C%2C8758a3f4-079a-45a0-8298-959701a3f2ed-446106888%7C2%2CtitlesResults">
+          <img src="images/wordparty.jpg">
+          </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="https://www.netflix.com/watch/80109201?trackId=256829969&tctx=0%2C0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446132037_titles%2F1%2F%2Fpaw%20patrol%2F0%2F0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446132037_titles%2F1%2F%2Fpaw%20patrol%2F0%2F0%2Cunknown%2C%2C8758a3f4-079a-45a0-8298-959701a3f2ed-446132037%7C2%2C">
+            <img src="images/pawpatrol.jpg">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.netflix.com/watch/81022712?trackId=256829969&tctx=0%2C4%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446132037_titles%2F1%2F%2Fpaw%20patrol%2F0%2F0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446132037_titles%2F1%2F%2Fpaw%20patrol%2F0%2F0%2Cunknown%2C%2C8758a3f4-079a-45a0-8298-959701a3f2ed-446132037%7C2%2C">
+            <img src="images/gabby.jpg">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.netflix.com/watch/80099367?trackId=256829969&tctx=0%2C0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446160352_titles%2F1%2F%2Fpuffin%2F0%2F0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446160352_titles%2F1%2F%2Fpuffin%2F0%2F0%2Cunknown%2C%2C8758a3f4-079a-45a0-8298-959701a3f2ed-446160352%7C2%2C">
+            <img src="images/puffinrock.jpg">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.netflix.com/watch/70281752?trackId=256829969&tctx=0%2C0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446172844_titles%2F1%2F%2Fpoco%2F0%2F0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446172844_titles%2F1%2F%2Fpoco%2F0%2F0%2Cunknown%2C%2C8758a3f4-079a-45a0-8298-959701a3f2ed-446172844%7C2%2C">
+            <img src="images/pocoyo.jpg">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.netflix.com/watch/81027550?trackId=256829969&tctx=0%2C0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446189540_titles%2F1%2F%2Fbuddi%2F0%2F0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446189540_titles%2F1%2F%2Fbuddi%2F0%2F0%2Cunknown%2C%2C8758a3f4-079a-45a0-8298-959701a3f2ed-446189540%7C2%2C">
+          <img src="images/buddi.jpg">
+          </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="https://www.netflix.com/watch/81477882?trackId=256829969&tctx=0%2C0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446203684_titles%2F1%2F%2Fmighty%2F0%2F0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446203684_titles%2F1%2F%2Fmighty%2F0%2F0%2Cunknown%2C%2C8758a3f4-079a-45a0-8298-959701a3f2ed-446203684%7C2%2C">
+            <img src="images/mightyexpress.jpg">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.netflix.com/watch/81563388?trackId=256829969&tctx=0%2C0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446217490_titles%2F1%2F%2Fabby%2F0%2F0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446217490_titles%2F1%2F%2Fabby%2F0%2F0%2Cunknown%2C%2C8758a3f4-079a-45a0-8298-959701a3f2ed-446217490%7C2%2C">
+            <img src="images/abby.jpg">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.netflix.com/watch/81142848?trackId=256829969&tctx=0%2C0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446227382_titles%2F1%2F%2Fkoala%2F0%2F0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446227382_titles%2F1%2F%2Fkoala%2F0%2F0%2Cunknown%2C%2C8758a3f4-079a-45a0-8298-959701a3f2ed-446227382%7C2%2CtitlesResults">
+          <img src="images/koala.jpg">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.netflix.com/watch/81362788?trackId=256829969&tctx=0%2C0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446242348_titles%2F1%2F%2Fbaby%2F0%2F0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446242348_titles%2F1%2F%2Fbaby%2F0%2F0%2Cunknown%2C%2C8758a3f4-079a-45a0-8298-959701a3f2ed-446242348%7C2%2C">
+            <img src="images/babyshark.jpg">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.netflix.com/watch/81064403?trackId=256829969&tctx=0%2C0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446256760_titles%2F1%2F%2Fhatchimals%2F0%2F0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446256760_titles%2F1%2F%2Fhatchimals%2F0%2F0%2Cunknown%2C%2C8758a3f4-079a-45a0-8298-959701a3f2ed-446256760%7C2%2C">
+          <img src="images/hatchimals.jpg">
+          </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="https://www.netflix.com/watch/81237765?trackId=256829969&tctx=0%2C0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446270347_titles%2F1%2F%2Fcharlie%2F0%2F0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446270347_titles%2F1%2F%2Fcharlie%2F0%2F0%2Cunknown%2C%2C8758a3f4-079a-45a0-8298-959701a3f2ed-446270347%7C2%2C">
+            <img src="images/charlie.jpg">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.netflix.com/watch/81040641?trackId=256829969&tctx=0%2C0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446282834_titles%2F1%2F%2Fpup%2F0%2F0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446282834_titles%2F1%2F%2Fpup%2F0%2F0%2Cunknown%2C%2C8758a3f4-079a-45a0-8298-959701a3f2ed-446282834%7C2%2C">
+            <img src="images/pupacademy.jpg">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.netflix.com/watch/81349711?trackId=256829969&tctx=0%2C0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446297442_titles%2F1%2F%2Focto%2F0%2F0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446297442_titles%2F1%2F%2Focto%2F0%2F0%2Cunknown%2C%2C8758a3f4-079a-45a0-8298-959701a3f2ed-446297442%7C2%2C">
+          <img src="images/octoabove.jpg">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.netflix.com/watch/80108163?trackId=256829969&tctx=0%2C0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446311796_titles%2F1%2F%2Fstory%2F0%2F0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446311796_titles%2F1%2F%2Fstory%2F0%2F0%2Cunknown%2C%2C8758a3f4-079a-45a0-8298-959701a3f2ed-446311796%7C2%2C">
+            <img src="images/storybots.jpg">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.netflix.com/watch/80090853?trackId=256829969&tctx=0%2C0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446328368_titles%2F1%2F%2Fdinotrain%2F0%2F0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446328368_titles%2F1%2F%2Fdinotrain%2F0%2F0%2Cunknown%2C%2C8758a3f4-079a-45a0-8298-959701a3f2ed-446328368%7C2%2C">
+            <img src="images/dinotrain.jpg">
+          </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="https://www.netflix.com/watch/70276832?trackId=256829969&tctx=0%2C0%2CNAPA%40%40%7C3648dae6-7aae-42f4-85f8-515cbc7a9f9e-439550073_titles%2F1%2F%2Fdaniel%2F0%2F0%2CNAPA%40%40%7C3648dae6-7aae-42f4-85f8-515cbc7a9f9e-439550073_titles%2F1%2F%2Fdaniel%2F0%2F0%2Cunknown%2C%2C3648dae6-7aae-42f4-85f8-515cbc7a9f9e-439550073%7C2%2C">
+            <img src="images/danieltiger.jpg">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.netflix.com/watch/80213475?trackId=256829969&tctx=0%2C0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446353694_titles%2F1%2F%2Fchip%2F0%2F0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446353694_titles%2F1%2F%2Fchip%2F0%2F0%2Cunknown%2C%2C8758a3f4-079a-45a0-8298-959701a3f2ed-446353694%7C2%2C">
+            <img src="images/chip.jpg">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.netflix.com/watch/81009671?trackId=256829969&tctx=0%2C6%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446297442_titles%2F1%2F%2Focto%2F0%2F0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446297442_titles%2F1%2F%2Focto%2F0%2F0%2Cunknown%2C%2C8758a3f4-079a-45a0-8298-959701a3f2ed-446297442%7C2%2C">
+          <img src="images/octocave.jpg">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.netflix.com/watch/81097730?trackId=256829969&tctx=0%2C2%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446297442_titles%2F1%2F%2Focto%2F0%2F0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446297442_titles%2F1%2F%2Focto%2F0%2F0%2Cunknown%2C%2C8758a3f4-079a-45a0-8298-959701a3f2ed-446297442%7C2%2C">
+            <img src="images/chico.jpg">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.netflix.com/watch/81272601?trackId=256829969&tctx=0%2C0%2CNAPA%40%40%7C3648dae6-7aae-42f4-85f8-515cbc7a9f9e-439986421_titles%2F1%2F%2Fnumber%2F0%2F0%2CNAPA%40%40%7C3648dae6-7aae-42f4-85f8-515cbc7a9f9e-439986421_titles%2F1%2F%2Fnumber%2F0%2F0%2Cunknown%2C%2C3648dae6-7aae-42f4-85f8-515cbc7a9f9e-439986421%7C2%2C">
+          <img src="images/number.jpg">
+          </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="https://www.netflix.com/watch/81272601?trackId=256829969&tctx=0%2C0%2CNAPA%40%40%7C3648dae6-7aae-42f4-85f8-515cbc7a9f9e-439986421_titles%2F1%2F%2Fnumber%2F0%2F0%2CNAPA%40%40%7C3648dae6-7aae-42f4-85f8-515cbc7a9f9e-439986421_titles%2F1%2F%2Fnumber%2F0%2F0%2Cunknown%2C%2C3648dae6-7aae-42f4-85f8-515cbc7a9f9e-439986421%7C2%2C">
+          <img src="images/number.jpg">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.netflix.com/watch/80090853?trackId=256829969&tctx=0%2C0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446328368_titles%2F1%2F%2Fdinotrain%2F0%2F0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446328368_titles%2F1%2F%2Fdinotrain%2F0%2F0%2Cunknown%2C%2C8758a3f4-079a-45a0-8298-959701a3f2ed-446328368%7C2%2C">
+            <img src="images/dinotrain.jpg">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.netflix.com/watch/81064403?trackId=256829969&tctx=0%2C0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446256760_titles%2F1%2F%2Fhatchimals%2F0%2F0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446256760_titles%2F1%2F%2Fhatchimals%2F0%2F0%2Cunknown%2C%2C8758a3f4-079a-45a0-8298-959701a3f2ed-446256760%7C2%2C">
+          <img src="images/hatchimals.jpg">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.netflix.com/watch/81027550?trackId=256829969&tctx=0%2C0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446189540_titles%2F1%2F%2Fbuddi%2F0%2F0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446189540_titles%2F1%2F%2Fbuddi%2F0%2F0%2Cunknown%2C%2C8758a3f4-079a-45a0-8298-959701a3f2ed-446189540%7C2%2C">
+          <img src="images/buddi.jpg">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.netflix.com/watch/80075098?trackId=256829969&tctx=0%2C0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446106888_titles%2F1%2F%2Fword%20party%2F0%2F0%2CNAPA%40%40%7C8758a3f4-079a-45a0-8298-959701a3f2ed-446106888_titles%2F1%2F%2Fword%20party%2F0%2F0%2Cunknown%2C%2C8758a3f4-079a-45a0-8298-959701a3f2ed-446106888%7C2%2CtitlesResults">
+          <img src="images/wordparty.jpg">
+          </a>
+        </li>
+      </ul>
+
+    </div>
+</body>
+</html>
